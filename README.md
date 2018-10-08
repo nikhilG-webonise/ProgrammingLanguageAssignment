@@ -23,7 +23,7 @@ class Assignment
 	  Arr.add("Nikhil");		 //second Nikhil String will be added
 	  Arr.add('a');			 //third 'a' character will be added
 	  System.out.println(Arr);	//this will print an output: [10,Nikhil,a] (Note: insertion order is maintain,This is non generic type example which is not 						  depend upon specific data type)
-	  ArrayList<Integer> array=new ArrayList<Integer>();  //Creating an object of arraylist with specific data type (i.e, Generic) with name array
+	  ArrayList<Integer> array=new ArrayList<Integer>();  //Creating an object of arraylist with primitive data type (i.e, Generic) with name array
 	  array.add(10);		//first 10 will get added
 	  array.add(20);		//second 20 will get added
 	 /* array.add("Nikh"); */  	//this will give you an error because of generic i.e, given input is in string
@@ -31,7 +31,7 @@ class Assignment
 	  
 	  //PROBLEM STATEMENT: FINDING AN INDEX OF STRING EX.APPLE
 
-	  	ArrayList<String> fruits=new ArrayList<String>(); 	//Creating an object of arraylist with String data type(generic) with name fruits
+	  	ArrayList<String> fruits=new ArrayList<String>(); 	//Creating an object of arraylist with String data type (generic) with name fruits
 	  	String fruitname="apple";			//Creating an String and storing value into variable fruitname and value is apple (for comparison)
 	  	fruits.add("banana");				//first banana is added	
 	  	fruits.add("pinaple");				//second pinaple is added
