@@ -47,7 +47,7 @@ class Assignment
 			System.out.println("Index of apple fruit is:"+index);  //this will print an index. Output(Index of apple fruit is:4
 			System.out.println("Index of apple fruit by using indexOf:"+fruits.indexOf("apple"));  //this will return index 3 if present and if not it'll 														       //return -1
  	     	     }
-	     	     else	//this is for if condtion is not true, so what shoud be printed we use else
+	     	     else	//this is for if condtion is not true, so what shoud be output to be shown or print
 	     	     {
  		        System.out.println("Fruit is not present at index:"+index); //this will print no index because no fruit is present in arraylist
 	             }
