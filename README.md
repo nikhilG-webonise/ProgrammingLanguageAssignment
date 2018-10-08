@@ -22,7 +22,7 @@ class Assignment
 	  Arr.add(10);                   //ArrayList provided add method to insert an element. It will add 10 first
 	  Arr.add("Nikhil");		 //second Nikhil String will be added
 	  Arr.add('a');			 //third 'a' character will be added
-	  System.out.println(Arr);	//this will print an output: [10,Nikhil,a] (Note: insertion order is maintain,This is non generic type example which is not 						  depend upon specific data type)
+	  System.out.println(Arr);	//this will print an output: [10,"Nikhil",'a'] (Note: insertion order is maintain,This is non generic type example which is not 					depend upon specific data type)
 	  ArrayList<Integer> array=new ArrayList<Integer>();  //Creating an object of arraylist with primitive data type (i.e, Generic) with name array
 	  array.add(10);		//first 10 will get added
 	  array.add(20);		//second 20 will get added
@@ -73,34 +73,34 @@ class Assignment
 	
 	Steps:1)Creating an object of arraylist
 	2)Create string as input which will be used for comparison and finding index of this input string ex.apple
-	3)adding fruits name into arraylist i.e, [banana,piaple,watermelon,apple,mango]
+	3)adding fruits name into arraylist i.e, ["banana","piaple","watermelon","apple","mango"]
 	4)Using for loop,
 	  a)Intializing variable with 0 and data type is int (Arraylist index start from 0)
 	  b)this will run till arraylist_size-1 (i.e, totalelements present in arraylist) 
 	  c)Increment of index value (it will execute till condition is satify)i i.e, conditin is index<arraylist_size=5
 	5) for index=0
-		String fruitname=apple;
- 		String fruitvalue=banana;
+		String fruitname="apple";
+ 		String fruitvalue="banana";
 		if(banana.equals(apple) :false
 		else print:Fruit is not present at index:0
 	6) for index=1
-		String fruitname=apple;
- 		String fruitvalue=piaple;
+		String fruitname="apple";
+ 		String fruitvalue="piaple";
 		if(banana.equals(apple) :false
 		else print:Fruit is not present at index:1
 	7) for index=2
-		String fruitname=apple;
- 		String fruitvalue=watermelon;
+		String fruitname="apple";
+ 		String fruitvalue="watermelon";
 		if(watermelon.equals(apple) :false
 		else print:Fruit is not present at index:2
 	8) for index=3
-		String fruitname=apple;
- 		String fruitvalue=apple;
+		String fruitname="apple";
+ 		String fruitvalue="apple";
 		if(apple.equals(apple) :true
 		print:Index of apple fruit is:3
 		print:Index of apple fruit by using indexOf:fruits.indexOf("apple")=3
 	9) for index=4
-		String fruitname=apple;
- 		String fruitvalue=mango;
+		String fruitname="apple";
+ 		String fruitvalue="mango";
 		if(mango.equals(apple) :false
 		else print:Fruit is not present at index:4
