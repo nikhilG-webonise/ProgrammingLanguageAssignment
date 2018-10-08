@@ -3,8 +3,8 @@ Why- 1) Java is simple Programming Language. It is easy to understand. I can say
      2) Java is OOPL i.e,(Object Oriented Programming language). objects have a unique identity, encapsulate attributes and operations, and are instances of classes 		related by inheritance and polymorphism.
      3) Java is compiled to bytecode. and this bytecode can be execute in any platform, that's why java is platform independent language.
      4) Java is an interpreted language, it was designed to support “just-in-time” compilers, which dynamically compile bytecodes to machine code.
-     5) Java supports multiple threads of execution (lightweight processes), including a set of synchronization primitives. This makes programming with threads 	much easier. 
-     6) Java supports dynamic loading of classes (load on demand), dynamic compilation, and memory management (garbage collection).
+     5) Java supports dynamic loading of classes (load on demand), dynamic compilation, and memory management (garbage collection).
+     6) Java Provides define classes which will give us readymade methods. storing and accessing those data will be easy. 
 
 Program-
 
