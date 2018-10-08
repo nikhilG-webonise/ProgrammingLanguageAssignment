@@ -26,7 +26,7 @@ class Assignment
 	  ArrayList<Integer> array=new ArrayList<Integer>();  //Creating an object of arraylist with specific data type (i.e, Generic) with name array
 	  array.add(10);		//first 10 will get added
 	  array.add(20);		//second 20 will get added
-	 /* array.add("Nikh"); */  	//this will give you an error because of generic
+	 /* array.add("Nikh"); */  	//this will give you an error because of generic i.e, given input is in string
 	  System.out.println(array);   	//this will print an output:[10,20]
 	  
 	  //PROBLEM STATEMENT: FINDING AN INDEX OF STRING EX.APPLE
