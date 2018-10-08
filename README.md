@@ -71,7 +71,6 @@ class Assignment
     	C)Java ArrayList allows duplicate and null values. and also it maintain insertion order.
      	D)ArrayList is also known as dynamic array because It grows its size to accommodate new elements and shrinks(re-size) the size when the elements are removed.
 	
-
 	Steps:1)Creating an object of arraylist
 	2)Create string as input which will be used for comparison and finding index of this input string ex.apple
 	3)adding fruits name into arraylist i.e, [banana,piaple,watermelon,apple,mango]
@@ -88,12 +87,12 @@ class Assignment
 		String fruitname=apple;
  		String fruitvalue=piaple;
 		if(banana.equals(apple) :false
-		else print:Fruit is not present at index:0
+		else print:Fruit is not present at index:1
 	7) for index=2
 		String fruitname=apple;
  		String fruitvalue=watermelon;
 		if(watermelon.equals(apple) :false
-		else print:Fruit is not present at index:0
+		else print:Fruit is not present at index:2
 	8) for index=3
 		String fruitname=apple;
  		String fruitvalue=apple;
@@ -104,4 +103,4 @@ class Assignment
 		String fruitname=apple;
  		String fruitvalue=mango;
 		if(mango.equals(apple) :false
-		else print:Fruit is not present at index:0
+		else print:Fruit is not present at index:4
