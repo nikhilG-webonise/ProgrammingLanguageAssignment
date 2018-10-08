@@ -80,23 +80,28 @@ class Assignment
 	  b)this will run till arraylist_size-1 (i.e, totalelements present in arraylist) 
 	  c)Increment of index value (it will execute till condition is satify)i i.e, conditin is index<arraylist_size=5
 	5) for index=0
+		String fruitname=apple;
  		String fruitvalue=banana;
 		if(banana.equals(apple) :false
 		else print:Fruit is not present at index:0
 	6) for index=1
+		String fruitname=apple;
  		String fruitvalue=piaple;
 		if(banana.equals(apple) :false
 		else print:Fruit is not present at index:0
 	7) for index=2
+		String fruitname=apple;
  		String fruitvalue=watermelon;
 		if(watermelon.equals(apple) :false
 		else print:Fruit is not present at index:0
 	8) for index=3
+		String fruitname=apple;
  		String fruitvalue=apple;
 		if(apple.equals(apple) :true
 		print:Index of apple fruit is:3
 		print:Index of apple fruit by using indexOf:fruits.indexOf("apple")=3
 	9) for index=4
+		String fruitname=apple;
  		String fruitvalue=mango;
 		if(mango.equals(apple) :false
 		else print:Fruit is not present at index:0
