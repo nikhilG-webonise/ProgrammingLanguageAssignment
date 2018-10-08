@@ -41,13 +41,13 @@ class Assignment
 	  	for(int index=0;index<fruits.size();index++)	//creating for loop for traversing of arraylist. index will start from 0 to size of an arraylist
 	  	{						//size of arraylist means total elements present into arraylist. index of arraylist start from 0
 	    	     String fruitValue=fruits.get(index);	//arraylist provide get method which will returns the element at the specified position in this list.
-								//index(as parameter)-The index of the element to return.
-   	     	     if(fruitValue.equals(fruitname))		//checking an element fruivalue with defined string fruitname. String provide equal method for comparison 									//of content and return true or false according to given conditions. if condtion is true then 
+							//index(as parameter)-The index of the element to return.
+   	     	     if(fruitValue.equals(fruitname))	//checking an element fruivalue with defined string fruitname. String provide equal method for comparison 									//of content and return true or false according to given conditions. if condtion is true then 
 	     	     {
 			System.out.println("Index of apple fruit is:"+index);  //this will print an index. Output(Index of apple fruit is:4
 			System.out.println("Index of apple fruit by using indexOf:"+fruits.indexOf("apple"));  //this will return index 3 if present and if not it'll 														       //return -1
  	     	     }
-	     	     else						       //this is for if condtion is not true, so what shoud be printed we use else
+	     	     else	//this is for if condtion is not true, so what shoud be printed we use else
 	     	     {
  		        System.out.println("Fruit is not present at index:"+index); //this will print no index because no fruit is present in arraylist
 	             }
@@ -100,4 +100,3 @@ class Assignment
  		String fruitvalue=mango;
 		if(mango.equals(apple) :false
 		else print:Fruit is not present at index:0
-	10) Stop execution
