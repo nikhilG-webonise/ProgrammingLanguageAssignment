@@ -100,3 +100,4 @@ class Assignment
  		String fruitvalue=mango;
 		if(mango.equals(apple) :false
 		else print:Fruit is not present at index:0
+	10) Stop execution
